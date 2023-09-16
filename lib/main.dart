@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: '九九九九 - 2桁x2桁の掛け算',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const QuestionPage(title: 'Flutter Demo Home Page'),
+      home: QuestionPage(),
     );
   }
 }
